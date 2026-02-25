@@ -1,7 +1,7 @@
 -- ============================================================================
 -- ADD $100,000 TO CHECKING ACCOUNT FOR USER
 -- ============================================================================
--- User ID: ed7344c4-c736-41b0-be3c-2969283a7c4d
+-- User ID: e988c243-7d5f-4433-88ed-e86a3538793d
 -- Amount: $100,000.00
 -- ============================================================================
 
@@ -11,7 +11,7 @@ SET
   balance = balance + 100000.00,
   updated_at = NOW()
 WHERE 
-  user_id = 'ed7344c4-c736-41b0-be3c-2969283a7c4d'
+  user_id = 'e988c243-7d5f-4433-88ed-e86a3538793d'
   AND account_type_id IN (
     SELECT id FROM public.account_types WHERE name = 'checking'
   );
@@ -34,7 +34,7 @@ SELECT
   NOW()
 FROM public.accounts
 WHERE 
-  user_id = 'ed7344c4-c736-41b0-be3c-2969283a7c4d'
+  user_id = 'e988c243-7d5f-4433-88ed-e86a3538793d'
   AND account_type_id IN (
     SELECT id FROM public.account_types WHERE name = 'checking'
   );

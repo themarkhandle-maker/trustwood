@@ -8,8 +8,8 @@ import { Input } from '@/components/ui/input'
 import { Eye, EyeOff, Github } from 'lucide-react'
 
 export default function LoginPage() {
-  const [email, setEmail] = useState('demo@example.com')
-  const [password, setPassword] = useState('Password123!')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
