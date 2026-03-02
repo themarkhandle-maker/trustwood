@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     'fictional bank',
     'frontend demo',
   ],
+  verification: {
+    google: '0F51NDwwXnKgGLMOnSOA3uYIGlQEBkCZRmia5hP7Rs4',
+  },
   authors: [{ name: 'Independent Developer' }],
   robots: 'noindex, nofollow',
   openGraph: {
@@ -46,7 +49,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Explicit demo declaration for crawlers */}
-        <meta name="robots" content="noindex, nofollow" />
+        {/* <meta name="robots" content="noindex, nofollow" /> */}
         <meta
           name="disclaimer"
           content="DEMO ONLY — Capital City Bank is a fictional brand. Not a real bank. No financial services provided."
