@@ -241,6 +241,20 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-background">
+      <div style={{
+        background: '#f59e0b',
+        color: '#000',
+        textAlign: 'center',
+        padding: '8px',
+        fontSize: '13px',
+        fontWeight: 600,
+        position: 'fixed',
+        top: 0,
+        width: '100%',
+        zIndex: 9999
+      }}>
+        ⚠️ DEMO ONLY — This is not a real bank. No real data is collected or stored.
+      </div>
 
       {/* ── HEADER ── */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">

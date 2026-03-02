@@ -1,0 +1,15 @@
+# Capital City Bank - DEMO/PORTFOLIO PROJECT ONLY
+# This is NOT a real bank or financial institution.
+# No real financial services, transactions, or data collection occur on this site.
+# Built for software development portfolio demonstration purposes only.
+
+User-agent: *
+Disallow: /dashboard
+Disallow: /login
+Disallow: /signup
+Disallow: /api/
+
+# Google Safe Browsing note:
+# This site is a fictional UI demo. See /disclaimer for full details.
+
+Sitemap: https://retestbank.netlify.app/sitemap.xml
