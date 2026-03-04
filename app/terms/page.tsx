@@ -36,7 +36,7 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-foreground mb-3">1. Acceptance of Terms</h2>
               <p className="text-foreground/80 mb-4">
-                By accessing and using Capital City Bank's services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                By accessing and using Trustwood's services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
               </p>
             </section>
 
@@ -57,7 +57,7 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-foreground mb-3">3. Account Types and Services</h2>
               <p className="text-foreground/80 mb-4">
-                Capital City Bank offers various account types including:
+                Trustwood offers various account types including:
               </p>
               <ul className="list-disc pl-6 text-foreground/80 space-y-2 mb-4">
                 <li><strong>Checking Accounts:</strong> For daily transactions with no minimum balance requirement</li>
@@ -150,7 +150,7 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-foreground mb-3">10. Liability and Disclaimers</h2>
               <p className="text-foreground/80 mb-4">
-                Capital City Bank is not liable for:
+                Trustwood is not liable for:
               </p>
               <ul className="list-disc pl-6 text-foreground/80 space-y-2 mb-4">
                 <li>Losses due to unauthorized access resulting from your negligence</li>
@@ -180,9 +180,9 @@ export default function TermsPage() {
                 For questions about these terms, please contact us:
               </p>
               <ul className="list-none text-foreground/80 space-y-2">
-                <li>Email: capitalcitybankorg@gmail.com </li>
+                <li>Email: trustwoodorg@gmail.com </li>
                 <li>Phone: +1 (800) CAPITAL</li>
-                <li>Address: Capital City Bank, 123 Financial District, New York, NY 10001</li>
+                <li>Address: Trustwood, 123 Financial District, New York, NY 10001</li>
               </ul>
             </section>
           </div>

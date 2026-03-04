@@ -10,7 +10,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Capital City Bank — UI Demo Project',
+  title: 'Trustwood — UI Demo Project',
   description:
     'A fictional banking UI demo built for portfolio and software development demonstration purposes. Not a real bank. No real financial services, transactions, or data collection.',
   keywords: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Independent Developer' }],
   robots: 'noindex, nofollow',
   openGraph: {
-    title: 'Capital City Bank — UI Demo Project (Not a Real Bank)',
+    title: 'Trustwood — UI Demo Project (Not a Real Bank)',
     description:
       'A fictional banking interface built as a portfolio demonstration. No real banking services are offered.',
     type: 'website',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   other: {
     'theme-color': '#ffffff',
     disclaimer:
-      'This is a demo project. Capital City Bank is a fictional brand. Not a real financial institution.',
+      'This is a demo project. Trustwood is a fictional brand. Not a real financial institution.',
   },
 }
 
@@ -52,14 +52,14 @@ export default function RootLayout({
         {/* <meta name="robots" content="noindex, nofollow" /> */}
         <meta
           name="disclaimer"
-          content="DEMO ONLY — Capital City Bank is a fictional brand. Not a real bank. No financial services provided."
+          content="DEMO ONLY — Trustwood is a fictional brand. Not a real bank. No financial services provided."
         />
         <meta name="rating" content="general" />
         <meta name="revisit-after" content="3 days" />
       </head>
       <body className={`${inter.className} antialiased`}>
         {/* Global demo banner — visible on every page for Safe Browsing review */}
-        <div
+        {/* <div
           style={{
             position: 'fixed',
             top: 0,
@@ -82,10 +82,10 @@ export default function RootLayout({
           >
             Read Disclaimer
           </a>
-        </div>
+        </div> */}
 
         {/* Push content down so it's not hidden behind the banner */}
-        <div style={{ paddingTop: '38px' }}>
+        <div>
           <AuthProvider>{children}</AuthProvider>
         </div>
       </body>

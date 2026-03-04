@@ -190,7 +190,7 @@ export default function SignupPage() {
           {/* Logo */}
           <div className="mb-8 flex items-center gap-2">
             <div className="h-8 w-8 rounded-lg bg-primary"></div>
-            <span className="text-xl font-bold text-foreground">Capital City Bank</span>
+            <span className="text-xl font-bold text-foreground">Trustwood</span>
           </div>
 
           {/* Progress Indicator */}
@@ -456,7 +456,7 @@ export default function SignupPage() {
 
         {/* Footer */}
         <p className="text-xs text-muted-foreground mt-8">
-          © 2010 Capital City Bank. All rights reserved.
+          © 2010 Trustwood. All rights reserved.
         </p>
       </div>
 

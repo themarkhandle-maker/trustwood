@@ -160,7 +160,7 @@ export default function DashboardPage() {
         <Card className="relative overflow-hidden bg-gradient-to-br from-primary to-primary/80 border-0 text-white p-4 md:p-6">
           <div className="flex items-start justify-between mb-3 md:mb-4">
             <div>
-              <p className="text-xs md:text-sm opacity-90 mb-1">CAPITAL CITY BANK</p>
+              <p className="text-xs md:text-sm opacity-90 mb-1">TRUSTWOOD</p>
               <p className="text-xs md:text-sm opacity-90">{user?.name}</p>
             </div>
             <div className="text-right">
@@ -370,7 +370,7 @@ export default function DashboardPage() {
             </div>
             <div className="min-w-0">
               <p className="text-sm md:text-base font-semibold text-white">Email Support</p>
-              <p className="text-xs md:text-sm text-purple-100">capitalcitybankorg@gmail.com </p>
+              <p className="text-xs md:text-sm text-purple-100">trustwoodorg@gmail.com </p>
               <p className="text-xs text-purple-200 mt-1">We'll respond within 24 hours</p>
             </div>
           </div>

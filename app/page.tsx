@@ -45,7 +45,7 @@ const PARTNER_LOGOS = [
 
 const FAQS = [
   {
-    q: 'Is my money safe with Capital City Bank?',
+    q: 'Is my money safe with Trustwood?',
     a: 'Absolutely. All deposits are FDIC-insured up to $250,000. We use 256-bit AES encryption, multi-factor authentication, and real-time fraud monitoring on every account.',
   },
   {
@@ -58,11 +58,11 @@ const FAQS = [
   },
   {
     q: 'How fast are transfers?',
-    a: 'Internal transfers between Capital City Bank accounts are instant. ACH transfers to external banks typically arrive within 1–2 business days. Wire transfers are same-day when submitted before 3 PM ET.',
+    a: 'Internal transfers between Trustwood accounts are instant. ACH transfers to external banks typically arrive within 1–2 business days. Wire transfers are same-day when submitted before 3 PM ET.',
   },
   {
     q: 'Can I use my debit card internationally?',
-    a: 'Yes. Your Capital City Bank Visa debit card works in 180+ countries. We charge zero foreign transaction fees on all international purchases and ATM withdrawals.',
+    a: 'Yes. Your Trustwood Visa debit card works in 180+ countries. We charge zero foreign transaction fees on all international purchases and ATM withdrawals.',
   },
   {
     q: 'What is the high-yield savings APY?',
@@ -168,7 +168,7 @@ function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-foreground/60 text-base md:text-lg">
-            Everything you need to know about Capital City Bank
+            Everything you need to know about Trustwood
           </p>
         </div>
 
@@ -241,20 +241,6 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-background">
-      <div style={{
-        background: '#f59e0b',
-        color: '#000',
-        textAlign: 'center',
-        padding: '8px',
-        fontSize: '13px',
-        fontWeight: 600,
-        position: 'fixed',
-        top: 0,
-        width: '100%',
-        zIndex: 9999
-      }}>
-        ⚠️ DEMO ONLY — This is not a real bank. No real data is collected or stored.
-      </div>
 
       {/* ── HEADER ── */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
@@ -262,7 +248,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between py-4">
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-primary/60" />
-              <span className="text-xl font-bold text-foreground">Capital City Bank</span>
+              <span className="text-xl font-bold text-foreground">Trustwood</span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
               {navItems.map(item => (
@@ -497,7 +483,7 @@ export default function HomePage() {
             <div className="max-w-lg mx-auto md:mx-0">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">Start Your Journey</h2>
               <p className="text-base md:text-lg mb-6 md:mb-8 opacity-80">
-                Join 500,000+ users building their financial future with Capital City Bank
+                Join 500,000+ users building their financial future with Trustwood
               </p>
               <Button size="lg" variant="secondary" className="text-base px-10 py-6 w-full md:w-auto" onClick={() => router.push('/signup')}>
                 Create Free Account <ArrowRight className="ml-2 h-5 w-5" />
@@ -532,7 +518,7 @@ export default function HomePage() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-primary/60" />
-                <span className="text-xl font-bold text-foreground">Capital City Bank</span>
+                <span className="text-xl font-bold text-foreground">Trustwood</span>
               </div>
               <p className="text-sm text-foreground/70">Modern digital banking for the modern world. Secure, fast, and reliable.</p>
             </div>
@@ -550,7 +536,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="border-t border-border py-8 text-center text-sm text-foreground/60">
-            <p>&copy; {new Date().getFullYear()} Capital City Bank. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Trustwood. All rights reserved.</p>
           </div>
         </div>
       </footer>

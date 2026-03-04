@@ -174,8 +174,8 @@ export default function AddMoneyPage() {
                 <div className="space-y-2">
                   <div className="text-sm text-muted-foreground">Bank Name</div>
                   <div className="flex items-center justify-between p-4 rounded-lg bg-secondary">
-                    <span className="font-semibold">Capital City Bank</span>
-                    <CopyButton text="Capital City Bank" field="bank" />
+                    <span className="font-semibold">Trustwood</span>
+                    <CopyButton text="Trustwood" field="bank" />
                   </div>
                 </div>
 

@@ -15,12 +15,12 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Create function to generate SWIFT code (format: CCBKUS33XXX)
+-- Create function to generate SWIFT code (format: TRWDUS33XXX)
 CREATE OR REPLACE FUNCTION generate_swift_code()
 RETURNS TEXT AS $$
 BEGIN
-  -- Format: CCBK (Capital City Bank) + US (Country) + 33 (Location) + XXX (Branch)
-  RETURN 'CCBKUS33' || LPAD(FLOOR(RANDOM() * 1000)::TEXT, 3, '0');
+  -- Format: TRWD (Trustwood) + US (Country) + 33 (Location) + XXX (Branch)
+  RETURN 'TRWDUS33' || LPAD(FLOOR(RANDOM() * 1000)::TEXT, 3, '0');
 END;
 $$ LANGUAGE plpgsql;
 

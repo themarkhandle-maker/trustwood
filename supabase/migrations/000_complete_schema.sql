@@ -1,5 +1,5 @@
 -- ============================================================================
--- CAPITAL CITY BANK - COMPLETE DATABASE SCHEMA
+-- TRUSTWOOD - COMPLETE DATABASE SCHEMA
 -- ============================================================================
 -- This migration sets up the entire database schema for the banking application
 -- Run this on a fresh Supabase project to get everything working
@@ -637,7 +637,7 @@ $$ LANGUAGE plpgsql;
 CREATE OR REPLACE FUNCTION generate_swift_code()
 RETURNS TEXT AS $$
 BEGIN
-  RETURN 'CCBKUS33' || LPAD(FLOOR(RANDOM() * 1000)::TEXT, 3, '0');
+  RETURN 'TRWDUS33' || LPAD(FLOOR(RANDOM() * 1000)::TEXT, 3, '0');
 END;
 $$ LANGUAGE plpgsql;
 
@@ -802,5 +802,5 @@ GRANT ALL ON storage.objects TO authenticated;
 -- ============================================================================
 -- COMPLETE
 -- ============================================================================
--- Migration complete! Your Capital City Bank database is ready to use.
+-- Migration complete! Your Trustwood database is ready to use.
 -- ============================================================================

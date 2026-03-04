@@ -244,8 +244,8 @@ export async function createAccount(
     // Generate routing number (9 digits)
     const routingNumber = Math.floor(Math.random() * 1000000000).toString().padStart(9, '0')
     
-    // Generate SWIFT code (CCBKUS33XXX format)
-    const swiftCode = `CCBKUS33${Math.floor(Math.random() * 1000).toString().padStart(3, '0')}`
+    // Generate SWIFT code (TRWDUS33XXX format)
+    const swiftCode = `TRWDUS33${Math.floor(Math.random() * 1000).toString().padStart(3, '0')}`
     
     console.log('Generated account details:', { accountNumber, routingNumber, swiftCode })
     

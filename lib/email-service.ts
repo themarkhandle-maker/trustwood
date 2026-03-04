@@ -225,7 +225,7 @@ export class EmailNotificationService {
         .single()
 
       const template = {
-        subject: 'Low Balance Alert - Capital City Bank',
+        subject: 'Low Balance Alert - Trustwood',
         html: `
           <!DOCTYPE html>
           <html>
@@ -246,7 +246,7 @@ export class EmailNotificationService {
           <body>
             <div class="container">
               <div class="header">
-                <h1>Capital City Bank</h1>
+                <h1>Trustwood</h1>
                 <p>Low Balance Alert</p>
               </div>
               <div class="content">
@@ -271,7 +271,7 @@ export class EmailNotificationService {
                 <p>To avoid overdraft fees, please consider adding funds to your account soon.</p>
                 
                 <div class="footer">
-                  <p>This is an automated message from Capital City Bank.</p>
+                  <p>This is an automated message from Trustwood.</p>
                   <p>Please do not reply to this email.</p>
                 </div>
               </div>
@@ -280,7 +280,7 @@ export class EmailNotificationService {
           </html>
         `,
         text: `
-          Capital City Bank - Low Balance Alert
+          Trustwood - Low Balance Alert
           
           Hello ${profile?.full_name || 'Valued Customer'},
           
@@ -293,7 +293,7 @@ export class EmailNotificationService {
           
           To avoid overdraft fees, please consider adding funds to your account soon.
           
-          This is an automated message from Capital City Bank. Please do not reply to this email.
+          This is an automated message from Trustwood. Please do not reply to this email.
         `
       }
 

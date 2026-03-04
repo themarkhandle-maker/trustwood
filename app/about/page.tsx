@@ -24,7 +24,7 @@ export default function AboutPage() {
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground flex items-center gap-3 mb-2">
             <Building2 className="h-8 w-8 md:h-10 md:w-10" />
-            About Capital City Bank
+            About Trustwood
           </h1>
           <p className="text-lg text-muted-foreground">
             Your trusted partner in modern banking
@@ -37,7 +37,7 @@ export default function AboutPage() {
             Banking Made Simple, Secure, and Smart
           </h2>
           <p className="text-foreground/80 text-lg mb-6">
-            Capital City Bank is a modern digital banking platform designed to meet the financial needs of today's customers. We combine cutting-edge technology with traditional banking values to provide a seamless, secure, and personalized banking experience.
+            Trustwood is a modern digital banking platform designed to meet the financial needs of today's customers. We combine cutting-edge technology with traditional banking values to provide a seamless, secure, and personalized banking experience.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="text-center">
@@ -148,7 +148,7 @@ export default function AboutPage() {
 
         {/* Why Choose Us */}
         <Card className="p-6 md:p-8 mb-8">
-          <h2 className="text-2xl font-bold text-foreground mb-6">Why Choose Capital City Bank?</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-6">Why Choose Trustwood?</h2>
           <div className="space-y-4">
             <div className="flex gap-3">
               <div className="flex-shrink-0 h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mt-0.5">

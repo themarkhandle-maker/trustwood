@@ -50,7 +50,7 @@ export function transactionEmailTemplate({
       <body>
         <div class="container">
           <div class="header">
-            <h1>Capital City Bank</h1>
+            <h1>Trustwood</h1>
             <p>Transaction Alert</p>
           </div>
           <div class="content">
@@ -91,7 +91,7 @@ export function transactionEmailTemplate({
             </div>
             
             <div class="footer">
-              <p>This is an automated message from Capital City Bank.</p>
+              <p>This is an automated message from Trustwood.</p>
               <p>Please do not reply to this email.</p>
             </div>
           </div>
@@ -100,7 +100,7 @@ export function transactionEmailTemplate({
       </html>
     `,
     text: `
-      Capital City Bank - Transaction Alert
+      Trustwood - Transaction Alert
       
       Hello ${userName},
       
@@ -116,7 +116,7 @@ export function transactionEmailTemplate({
       
       Security Notice: If you didn't authorize this transaction, please contact our support team immediately.
       
-      This is an automated message from Capital City Bank. Please do not reply to this email.
+      This is an automated message from Trustwood. Please do not reply to this email.
     `
   }
 }
@@ -175,7 +175,7 @@ export function kycStatusEmailTemplate({
       <body>
         <div class="container">
           <div class="header">
-            <h1>Capital City Bank</h1>
+            <h1>Trustwood</h1>
             <p>KYC Verification Update</p>
           </div>
           <div class="content">
@@ -222,7 +222,7 @@ export function kycStatusEmailTemplate({
             ` : ''}
             
             <div class="footer">
-              <p>Thank you for choosing Capital City Bank.</p>
+              <p>Thank you for choosing Trustwood.</p>
               <p>If you have any questions, please contact our support team.</p>
             </div>
           </div>
@@ -231,7 +231,7 @@ export function kycStatusEmailTemplate({
       </html>
     `,
     text: `
-      Capital City Bank - KYC Verification Update
+      Trustwood - KYC Verification Update
       
       Hello ${userName},
       
@@ -263,7 +263,7 @@ export function kycStatusEmailTemplate({
       You will receive an update once the review process begins.
       ` : ''}
       
-      Thank you for choosing Capital City Bank.
+      Thank you for choosing Trustwood.
       If you have any questions, please contact our support team.
     `
   }
@@ -279,7 +279,7 @@ export function passwordResetEmailTemplate({
   expiryTime: string
 }): EmailTemplate {
   return {
-    subject: 'Password Reset Request - Capital City Bank',
+    subject: 'Password Reset Request - Trustwood',
     html: `
       <!DOCTYPE html>
       <html>
@@ -301,12 +301,12 @@ export function passwordResetEmailTemplate({
       <body>
         <div class="container">
           <div class="header">
-            <h1>Capital City Bank</h1>
+            <h1>Trustwood</h1>
             <p>Password Reset Request</p>
           </div>
           <div class="content">
             <h2>Hello ${userName},</h2>
-            <p>We received a request to reset your password for your Capital City Bank account.</p>
+            <p>We received a request to reset your password for your Trustwood account.</p>
             
             <p>Click the button below to reset your password:</p>
             
@@ -321,7 +321,7 @@ export function passwordResetEmailTemplate({
             </div>
             
             <div class="footer">
-              <p>This is an automated message from Capital City Bank.</p>
+              <p>This is an automated message from Trustwood.</p>
               <p>Please do not reply to this email.</p>
             </div>
           </div>
@@ -330,11 +330,11 @@ export function passwordResetEmailTemplate({
       </html>
     `,
     text: `
-      Capital City Bank - Password Reset Request
+      Trustwood - Password Reset Request
       
       Hello ${userName},
       
-      We received a request to reset your password for your Capital City Bank account.
+      We received a request to reset your password for your Trustwood account.
       
       Click the link below to reset your password:
       ${resetLink}
@@ -343,7 +343,7 @@ export function passwordResetEmailTemplate({
       
       Security Notice: If you didn't request a password reset, please ignore this email or contact our support team immediately.
       
-      This is an automated message from Capital City Bank. Please do not reply to this email.
+      This is an automated message from Trustwood. Please do not reply to this email.
     `
   }
 }
@@ -356,14 +356,14 @@ export function welcomeEmailTemplate({
   accountNumber: string
 }): EmailTemplate {
   return {
-    subject: 'Welcome to Capital City Bank!',
+    subject: 'Welcome to Trustwood!',
     html: `
       <!DOCTYPE html>
       <html>
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome to Capital City Bank</title>
+        <title>Welcome to Trustwood</title>
         <style>
           body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
           .container { max-width: 600px; margin: 0 auto; padding: 20px; }
@@ -379,13 +379,13 @@ export function welcomeEmailTemplate({
       <body>
         <div class="container">
           <div class="header">
-            <h1>Capital City Bank</h1>
+            <h1>Trustwood</h1>
             <p>Welcome to Your New Account!</p>
           </div>
           <div class="content">
             <div class="welcome-box">
               <h2>🎉 Welcome, ${userName}!</h2>
-              <p>Thank you for choosing Capital City Bank. Your account has been successfully created and is ready to use.</p>
+              <p>Thank you for choosing Trustwood. Your account has been successfully created and is ready to use.</p>
             </div>
             
             <h3>Your Account Details:</h3>
@@ -425,11 +425,11 @@ export function welcomeEmailTemplate({
       </html>
     `,
     text: `
-      Capital City Bank - Welcome to Your New Account!
+      Trustwood - Welcome to Your New Account!
       
       🎉 Welcome, ${userName}!
       
-      Thank you for choosing Capital City Bank. Your account has been successfully created and is ready to use.
+      Thank you for choosing Trustwood. Your account has been successfully created and is ready to use.
       
       Your Account Details:
       - Account Number: ****${accountNumber.slice(-4)}

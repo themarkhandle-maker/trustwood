@@ -34,11 +34,11 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Generate SWIFT code (CCBKUS33 + 3 random digits for international transfers)
+-- Generate SWIFT code (TRWDUS33 + 3 random digits for international transfers)
 CREATE OR REPLACE FUNCTION generate_swift_code()
 RETURNS TEXT AS $$
 BEGIN
-  RETURN 'CCBKUS33' || LPAD(FLOOR(RANDOM() * 1000)::TEXT, 3, '0');
+  RETURN 'TRWDUS33' || LPAD(FLOOR(RANDOM() * 1000)::TEXT, 3, '0');
 END;
 $$ LANGUAGE plpgsql;
 

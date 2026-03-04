@@ -44,7 +44,7 @@ export async function sendEmail({
   
   try {
     const info = await transporter.sendMail({
-      from: `"Capital City Bank" <${process.env.EMAIL_USER}>`,
+      from: `"Trustwood" <${process.env.EMAIL_USER}>`,
       to,
       subject,
       html,
@@ -113,21 +113,21 @@ export async function sendAccountBlockedEmail(userEmail: string, userName: strin
             </ul>
             
             <p>
-              <a href="mailto:capitalcitybankorg@gmail.com " class="button">Contact Support</a>
+              <a href="mailto:trustwoodorg@gmail.com " class="button">Contact Support</a>
             </p>
             
             <p><strong>Support Contact Information:</strong><br>
-            Email: capitalcitybankorg@gmail.com <br>
+            Email: trustwoodorg@gmail.com <br>
             Phone: 1-800-CAPITAL (1-800-227-4825)<br>
             Available 24/7</p>
             
             <p>If you did not authorize these transactions, please contact us immediately.</p>
             
             <p>Best regards,<br>
-            <strong>Capital City Bank Security Team</strong></p>
+            <strong>Trustwood Security Team</strong></p>
           </div>
           <div class="footer">
-            <p>© 2010 Capital City Bank. All rights reserved.<br>
+            <p>© 2010 Trustwood. All rights reserved.<br>
             This is an automated security notification. Please do not reply to this email.</p>
           </div>
         </div>
@@ -154,16 +154,16 @@ export async function sendAccountBlockedEmail(userEmail: string, userName: strin
     - Do not share your account credentials with anyone
     
     Support Contact Information:
-    Email: capitalcitybankorg@gmail.com 
+    Email: trustwoodorg@gmail.com 
     Phone: 1-800-CAPITAL (1-835-127-4225)
     Available 24/7
     
     If you did not authorize these transactions, please contact us immediately.
     
     Best regards,
-    Capital City Bank Security Team
+    Trustwood Security Team
     
-    © 2010 Capital City Bank. All rights reserved.
+    © 2010 Trustwood. All rights reserved.
   `
 
   return sendEmail({

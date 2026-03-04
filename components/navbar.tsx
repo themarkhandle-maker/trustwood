@@ -20,7 +20,7 @@ export function Navbar() {
         {/* Logo on the left */}
         <div className="flex items-center gap-2">
           <div className="h-6 w-6 rounded-lg bg-primary"></div>
-          <span className="font-bold text-foreground hidden sm:block">Capital City Bank</span>
+          <span className="font-bold text-foreground hidden sm:block">Trustwood</span>
         </div>
 
         <div className="flex items-center gap-4">

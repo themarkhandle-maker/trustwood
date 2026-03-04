@@ -64,11 +64,11 @@ export function Sidebar() {
           <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg flex items-center justify-center">
             <div className="h-6 w-6 rounded bg-white"></div>
           </div>
-          <span className="font-bold text-xl text-white">Capital Bank</span>
+          <span className="font-bold text-xl text-white">Trustwood</span>
         </div>
       </div>
 
-      
+
 
       {/* Menu Items */}
       <nav className="flex-1 space-y-2 p-4 overflow-hidden">
@@ -78,11 +78,10 @@ export function Sidebar() {
             <Button
               key={item.href}
               variant={isActive ? 'default' : 'ghost'}
-              className={`w-full justify-start h-14 text-base font-medium transition-all duration-200 ${
-                isActive 
-                  ? 'bg-blue-600 text-white shadow-lg' 
+              className={`w-full justify-start h-14 text-base font-medium transition-all duration-200 ${isActive
+                  ? 'bg-blue-600 text-white shadow-lg'
                   : 'text-slate-300 hover:bg-slate-700 hover:text-white'
-              }`}
+                }`}
               onClick={() => router.push(item.href)}
             >
               <Icon name={item.icon} className="mr-4" size={24} />

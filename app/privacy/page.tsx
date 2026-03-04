@@ -36,7 +36,7 @@ export default function PrivacyPage() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-foreground mb-3">1. Introduction</h2>
               <p className="text-foreground/80 mb-4">
-                Capital City Bank ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our banking services.
+                Trustwood ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our banking services.
               </p>
             </section>
 
@@ -136,7 +136,7 @@ export default function PrivacyPage() {
                 <li><strong>Object:</strong> Object to processing of your information</li>
               </ul>
               <p className="text-foreground/80 mb-4">
-                To exercise these rights, contact us at capitalcitybankorg@gmail.com .
+                To exercise these rights, contact us at trustwoodorg@gmail.com .
               </p>
             </section>
 
@@ -190,9 +190,9 @@ export default function PrivacyPage() {
                 If you have questions about this Privacy Policy or our privacy practices, please contact us:
               </p>
               <ul className="list-none text-foreground/80 space-y-2">
-                <li>Email: capitalcitybankorg@gmail.com </li>
+                <li>Email: trustwoodorg@gmail.com </li>
                 <li>Phone: +1 (800) CAPITAL</li>
-                <li>Mail: Privacy Officer, Capital City Bank, 123 Financial District, New York, NY 10001</li>
+                <li>Mail: Privacy Officer, Trustwood, 123 Financial District, New York, NY 10001</li>
               </ul>
             </section>
 

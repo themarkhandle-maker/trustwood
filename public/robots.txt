@@ -1,4 +1,4 @@
-# Capital City Bank - DEMO/PORTFOLIO PROJECT ONLY
+# Trustwood - DEMO/PORTFOLIO PROJECT ONLY
 # This is NOT a real bank or financial institution.
 # No real financial services, transactions, or data collection occur on this site.
 # Built for software development portfolio demonstration purposes only.

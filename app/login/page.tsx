@@ -39,7 +39,7 @@ export default function LoginPage() {
           {/* Logo */}
           <div className="mb-12 flex items-center gap-2">
             <div className="h-8 w-8 rounded-lg bg-primary"></div>
-            <span className="text-xl font-bold text-foreground">Capital City Bank</span>
+            <span className="text-xl font-bold text-foreground">Trustwood</span>
           </div>
 
           {/* Form Content */}
@@ -137,7 +137,7 @@ export default function LoginPage() {
 
         {/* Footer */}
         <p className="text-xs text-muted-foreground">
-          © 2010 Capital City Bank. All rights reserved.
+          © 2010 Trustwood. All rights reserved.
         </p>
       </div>
 

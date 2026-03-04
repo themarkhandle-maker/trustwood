@@ -13,7 +13,7 @@ const SECTIONS = [
         color: 'text-amber-500',
         bg: 'bg-amber-500/10 border-amber-500/20',
         title: 'Not a Real Bank',
-        body: `Capital City Bank is a fictional brand created solely for portfolio and demonstration purposes. It is not a licensed financial institution, does not hold a banking charter, and is not regulated by any financial authority including the FDIC, FCA, or CBN. No real banking services are offered.`,
+        body: `Trustwood is a fictional brand created solely for portfolio and demonstration purposes. It is not a licensed financial institution, does not hold a banking charter, and is not regulated by any financial authority including the FDIC, FCA, or CBN. No real banking services are offered.`,
     },
     {
         icon: Database,
@@ -104,7 +104,7 @@ export default function DisclaimerPage() {
                         </span>
                     </h1>
                     <p className="text-foreground/60 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-                        Please read before interacting with this application. Capital City Bank is a
+                        Please read before interacting with this application. Trustwood is a
                         fictional product built for demonstration and portfolio purposes only.
                     </p>
 
@@ -155,7 +155,7 @@ export default function DisclaimerPage() {
                 <div className="rounded-2xl border border-border bg-muted/20 p-6 md:p-8 mb-10 text-xs md:text-sm text-foreground/50 leading-relaxed space-y-3">
                     <p className="font-semibold text-foreground/70 text-sm md:text-base">Legal Notice</p>
                     <p>
-                        "Capital City Bank" is a fictitious name used exclusively for this demonstration application.
+                        "Trustwood" is a fictitious name used exclusively for this demonstration application.
                         Any resemblance to a real banking institution by name, logo, or service description is
                         coincidental. The developer makes no representations that this application is affiliated
                         with or endorsed by any real financial entity.

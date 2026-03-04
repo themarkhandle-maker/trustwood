@@ -1,7 +1,7 @@
-# Capital City Bank - New Features Implementation
+# Trustwood - New Features Implementation
 
 ## Overview
-This document outlines all the new financial features added to the Capital City Bank application.
+This document outlines all the new financial features added to the Trustwood application.
 
 ## Features Added
 
