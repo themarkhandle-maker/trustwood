@@ -10,33 +10,30 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Trustwood — UI Demo Project',
+  title: 'Trustwood — Modern Digital Banking & Wealth Management',
   description:
-    'A fictional banking UI demo built for portfolio and software development demonstration purposes. Not a real bank. No real financial services, transactions, or data collection.',
+    'Experience the future of personal and business banking with Trustwood. Discover high-yield savings, intuitive mobile banking, and world-class security designed for your financial growth.',
   keywords: [
-    'demo',
-    'portfolio project',
-    'UI demo',
-    'Next.js banking UI',
-    'fictional bank',
-    'frontend demo',
+    'online banking',
+    'high yield savings',
+    'financial services',
+    'Trustwood bank',
+    'digital banking',
+    'wealth management',
+    'business banking',
+    'secure transfers',
   ],
-  verification: {
-    google: '0F51NDwwXnKgGLMOnSOA3uYIGlQEBkCZRmia5hP7Rs4',
-  },
-  authors: [{ name: 'Independent Developer' }],
-  robots: 'noindex, nofollow',
+  authors: [{ name: 'Trustwood Financial Group' }],
+  robots: 'index, follow',
   openGraph: {
-    title: 'Trustwood — UI Demo Project (Not a Real Bank)',
+    title: 'Trustwood — Personal & Business Banking Redefined',
     description:
-      'A fictional banking interface built as a portfolio demonstration. No real banking services are offered.',
+      'Join thousands of users who trust Trustwood for their daily banking and long-term financial goals. Secure, fast, and built for the modern world.',
     type: 'website',
-    url: 'https://retestbank.netlify.app',
+    url: 'https://trustwood.com',
   },
   other: {
-    'theme-color': '#ffffff',
-    disclaimer:
-      'This is a demo project. Trustwood is a fictional brand. Not a real financial institution.',
+    'theme-color': '#0f172a',
   },
 }
 
@@ -48,43 +45,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Explicit demo declaration for crawlers */}
-        {/* <meta name="robots" content="noindex, nofollow" /> */}
-        <meta
-          name="disclaimer"
-          content="DEMO ONLY — Trustwood is a fictional brand. Not a real bank. No financial services provided."
-        />
         <meta name="rating" content="general" />
-        <meta name="revisit-after" content="3 days" />
+        <meta name="revisit-after" content="7 days" />
       </head>
       <body className={`${inter.className} antialiased`}>
-        {/* Global demo banner — visible on every page for Safe Browsing review */}
-        {/* <div
-          style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: 99999,
-            backgroundColor: '#f59e0b',
-            color: '#000',
-            textAlign: 'center',
-            padding: '8px 16px',
-            fontSize: '13px',
-            fontWeight: 700,
-            lineHeight: 1.4,
-          }}
-        >
-          ⚠️ DEMO PROJECT — This is NOT a real bank. No real data is collected or stored.{' '}
-          <a
-            href="/disclaimer"
-            style={{ textDecoration: 'underline', marginLeft: '6px' }}
-          >
-            Read Disclaimer
-          </a>
-        </div> */}
-
-        {/* Push content down so it's not hidden behind the banner */}
         <div>
           <AuthProvider>{children}</AuthProvider>
         </div>
