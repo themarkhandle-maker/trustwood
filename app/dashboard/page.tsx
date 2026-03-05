@@ -62,11 +62,11 @@ export default function DashboardPage() {
 
   const handleCreateAccount = async () => {
     if (!user) return
-    
+
     setCreating(true)
     try {
       await apiClient.createAccount(user.id, 'checking', 'My Checking Account')
-      
+
       // Refresh accounts
       const accs = await apiClient.getAccounts(user.id)
       setAccounts(accs || [])
@@ -86,8 +86,8 @@ export default function DashboardPage() {
           <p className="text-foreground/60 mb-6 text-center max-w-md">
             Get started by creating your first checking account
           </p>
-          <Button 
-            onClick={handleCreateAccount} 
+          <Button
+            onClick={handleCreateAccount}
             disabled={creating}
             size="lg"
           >
@@ -107,8 +107,8 @@ export default function DashboardPage() {
   }, 0)
 
   const displayBalance = balanceType === 'fiat' ? totalBalance : totalCryptoValue
-  const displayAccountInfo = balanceType === 'fiat' 
-    ? `${currentAccount?.account_type?.display_name || 'Account'} - ${currentAccount?.account_number?.slice(-4) || ''}` 
+  const displayAccountInfo = balanceType === 'fiat'
+    ? `${currentAccount?.account_type?.display_name || 'Account'} - ${currentAccount?.account_number?.slice(-4) || ''}`
     : `${cryptoBalances.length} Crypto Assets`
 
   // Check if any account is frozen
@@ -203,15 +203,13 @@ export default function DashboardPage() {
         <div className="flex items-center justify-center gap-2 mt-4">
           <button
             onClick={() => setBalanceType('fiat')}
-            className={`h-2 w-2 rounded-full transition-all ${
-              balanceType === 'fiat' ? 'bg-primary w-6' : 'bg-muted'
-            }`}
+            className={`h-2 w-2 rounded-full transition-all ${balanceType === 'fiat' ? 'bg-primary w-6' : 'bg-muted'
+              }`}
           />
           <button
             onClick={() => setBalanceType('crypto')}
-            className={`h-2 w-2 rounded-full transition-all ${
-              balanceType === 'crypto' ? 'bg-primary w-6' : 'bg-muted'
-            }`}
+            className={`h-2 w-2 rounded-full transition-all ${balanceType === 'crypto' ? 'bg-primary w-6' : 'bg-muted'
+              }`}
           />
         </div>
         <p className="text-center text-xs md:text-sm text-muted-foreground mt-2 flex items-center justify-center gap-2">
@@ -370,7 +368,7 @@ export default function DashboardPage() {
             </div>
             <div className="min-w-0">
               <p className="text-sm md:text-base font-semibold text-white">Email Support</p>
-              <p className="text-xs md:text-sm text-purple-100">trustwoodorg@gmail.com </p>
+              <p className="text-xs md:text-sm text-purple-100">trustwoodbankorg@gmail.com </p>
               <p className="text-xs text-purple-200 mt-1">We'll respond within 24 hours</p>
             </div>
           </div>

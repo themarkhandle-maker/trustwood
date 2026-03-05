@@ -35,7 +35,7 @@ export default function SupportPage() {
     {
       category: 'Account',
       question: 'How do I close my account?',
-      answer: 'To close an account, please contact our support team via email at trustwoodorg@gmail.com  or call us. We\'ll guide you through the process and ensure all pending transactions are settled.'
+      answer: 'To close an account, please contact our support team via email at trustwoodbankorg@gmail.com or call us. We\'ll guide you through the process and ensure all pending transactions are settled.'
     },
     {
       category: 'Transfers',
@@ -101,12 +101,12 @@ export default function SupportPage() {
       setSending(true)
       // Simulate sending
       await new Promise(resolve => setTimeout(resolve, 1500))
-      
+
       toast({
         title: 'Message Sent',
         description: 'We\'ll get back to you within 24 hours'
       })
-      
+
       setContactForm({ subject: '', message: '' })
     } catch (error) {
       toast({
@@ -149,8 +149,8 @@ export default function SupportPage() {
           <p className="text-sm text-purple-100 mb-4">
             We'll respond within 24 hours
           </p>
-          <a href="mailto:trustwoodorg@gmail.com " className="text-sm font-medium underline">
-            trustwoodorg@gmail.com 
+          <a href="mailto:trustwoodbankorg@gmail.com " className="text-sm font-medium underline">
+            trustwoodbankorg@gmail.com
           </a>
         </Card>
 
@@ -182,7 +182,7 @@ export default function SupportPage() {
       {/* FAQ Section */}
       <Card className="p-6 mb-8">
         <h2 className="text-xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
-        
+
         {/* Search */}
         <div className="relative mb-6">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />

@@ -41,7 +41,7 @@ export async function sendEmail({
   text?: string
 }) {
   const transporter = getEmailTransporter()
-  
+
   try {
     const info = await transporter.sendMail({
       from: `"Trustwood" <${process.env.EMAIL_USER}>`,
@@ -50,7 +50,7 @@ export async function sendEmail({
       html,
       text
     })
-    
+
     console.log('Email sent successfully:', info.messageId)
     return info
   } catch (error) {
@@ -61,7 +61,7 @@ export async function sendEmail({
 
 export async function verifyEmailConnection() {
   const transporter = getEmailTransporter()
-  
+
   try {
     await transporter.verify()
     console.log('Email server connection verified successfully')
@@ -113,11 +113,11 @@ export async function sendAccountBlockedEmail(userEmail: string, userName: strin
             </ul>
             
             <p>
-              <a href="mailto:trustwoodorg@gmail.com " class="button">Contact Support</a>
+              <a href="mailto:"trustwoodbankorg@gmail.com class="button">Contact Support</a>
             </p>
             
             <p><strong>Support Contact Information:</strong><br>
-            Email: trustwoodorg@gmail.com <br>
+            Email: trustwoodbankorg@gmail.com<br>
             Phone: 1-800-CAPITAL (1-800-227-4825)<br>
             Available 24/7</p>
             
@@ -154,7 +154,7 @@ export async function sendAccountBlockedEmail(userEmail: string, userName: strin
     - Do not share your account credentials with anyone
     
     Support Contact Information:
-    Email: trustwoodorg@gmail.com 
+    Email: trustwoodbankorg@gmail.com
     Phone: 1-800-CAPITAL (1-835-127-4225)
     Available 24/7
     

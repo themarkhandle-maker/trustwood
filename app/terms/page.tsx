@@ -180,7 +180,7 @@ export default function TermsPage() {
                 For questions about these terms, please contact us:
               </p>
               <ul className="list-none text-foreground/80 space-y-2">
-                <li>Email: trustwoodorg@gmail.com </li>
+                <li>Email: trustwoodbankorg@gmail.com </li>
                 <li>Phone: +1 (800) CAPITAL</li>
                 <li>Address: Trustwood, 123 Financial District, New York, NY 10001</li>
               </ul>
