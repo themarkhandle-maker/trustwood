@@ -14,6 +14,14 @@ const CRYPTO_PRICES: Record<string, number> = {
   BTC: 65000, ETH: 3500, USDT: 1, BNB: 450, SOL: 140, XRP: 0.65, ADA: 0.55, DOGE: 0.15
 }
 
+function getGreeting() {
+  const hour = new Date().toLocaleString('en-US', { timeZone: 'America/New_York', hour: 'numeric', hour12: false })
+  const h = parseInt(hour)
+  if (h >= 5 && h < 12) return 'Good Morning'
+  if (h >= 12 && h < 17) return 'Good Afternoon'
+  return 'Good Evening'
+}
+
 export default function DashboardPage() {
   const { user } = useAuth()
   const router = useRouter()
@@ -140,7 +148,7 @@ export default function DashboardPage() {
             {user?.name.charAt(0).toUpperCase()}
           </div>
           <div>
-            <h1 className="text-lg md:text-xl font-bold text-foreground">Good Morning 👋</h1>
+            <h1 className="text-lg md:text-xl font-bold text-foreground">{getGreeting()} 👋</h1>
             <p className="text-xs md:text-sm text-muted-foreground">{user?.name}</p>
           </div>
         </div>
