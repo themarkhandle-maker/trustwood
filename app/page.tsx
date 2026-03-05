@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { useEffect, useState } from 'react'
 import {
-  ArrowRight, Lock, TrendingUp, Send, Shield, Smartphone,
+  ArrowRight, Shield, Smartphone,
   CreditCard, PiggyBank, Users, DollarSign, Star, Menu, X,
   ChevronDown, ChevronUp
 } from 'lucide-react'
@@ -536,7 +536,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="border-t border-border py-8 text-center text-sm text-foreground/60">
-            <p>&copy; {new Date().getFullYear()} Trustwood. All rights reserved.</p>
+            <p>&copy; 2010 Trustwood. All rights reserved.</p>
           </div>
         </div>
       </footer>
